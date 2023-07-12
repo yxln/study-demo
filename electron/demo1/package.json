@@ -1,0 +1,14 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "yxln",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.2.0"
+  }
+}

@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>yxln-音乐</title>
     <link rel="stylesheet" href="resource/css/index.css">
+    <script src="resource/js/jquery-3.7.0.min.js"></script>
     <script src="render.js"></script>
 </head>
 <body>
     <div class="page-body">
         <div class="page-left">
+            <div id="favorites_list" class="favorites-list">
+
+            </div>
 
         </div>
         <div class="page-right">
@@ -17,7 +21,7 @@
 
             </div>
             <div class="footer-palyer-nar">
-                <audio src=""></audio>
+                <audio id="audio_player" controls src="http://127.0.0.1:3000/readMusic"></audio>
             </div>
         </div>
     </div>

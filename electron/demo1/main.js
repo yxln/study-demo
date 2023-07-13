@@ -3,10 +3,11 @@ const path = require('path')
 
 function createWindow() {
     const win = new BrowserWindow({
-        width: 1200,
-        height: 800,
+        width: 1600,
+        height: 1000,
         webPreferences: {
-            contextIsolation: false,                                // 设置为false，才能在渲染进程中使用electron api
+            nodeIntegration: true,
+            contextIsolation: false,                            // 设置为false，才能在渲染进程中使用electron api
             preload: path.join(__dirname, 'preload.js')             // 预加载js
         }
     });
